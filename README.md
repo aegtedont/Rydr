@@ -321,13 +321,15 @@ The protocol integrates 19+ validated endurance science frameworks:
 
 ### Rolling Phase Logic
 
-Training blocks adapt dynamically based on real data:
+Training blocks adapt dynamically using dual-stream phase detection:
 
 ```
-Base → Build → Peak → Taper → Recovery
+Build ↔ Base ↔ Deload ↔ Peak → Taper → Recovery
+                                  ↑ Race calendar
+Overreached (safety gate — triggers from any state)
 ```
 
-Phase transitions are triggered by actual metrics (TSB trend, ACWR, RI), not fixed calendar dates.
+Phase classification combines retrospective history (4-week CTL/ACWR/hard-day trends) with prospective calendar data (planned workouts + race proximity). Confidence scoring (high/medium/low) and reason codes provide full auditability.
 
 ### Readiness Thresholds
 
@@ -377,7 +379,7 @@ The sync script pre-calculates Section 11-compliant metrics so AI doesn't need t
 | Quality Intensity % | Z4+ time — target ~20% |
 | Polarisation Index | Easy time ratio — target ~0.80 |
 | Benchmark Index | 8-week FTP progression (indoor/outdoor) |
-| Phase Detected | Auto-detected training phase |
+| Phase Detected | Dual-stream classification: Build, Base, Peak, Taper, Deload, Recovery, Overreached, null |
 | Seiler TID | 3-zone classification (Polarized/Pyramidal/Threshold/HIT/Base) |
 | Polarization Index (PI) | Treff et al. quantitative polarization score |
 | Hard Days/Week | Zone ladder classification per Seiler/Foster |
