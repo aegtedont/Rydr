@@ -1,0 +1,45 @@
+{
+  "scope": "Operational files that affect coaching quality. These are the files --update compares and pulls. --init downloads the entire repo as a zip and does not use this manifest for file discovery.",
+  "files": {
+    "sync.py": {
+      "version": "3.75",
+      "path": "examples/sync.py",
+      "description": "Data sync engine"
+    },
+    "push.py": {
+      "version": "0.3",
+      "path": "examples/agentic/push.py",
+      "description": "Calendar write engine"
+    },
+    "SECTION_11.md": {
+      "version": "11.13",
+      "path": "SECTION_11.md",
+      "description": "Coaching protocol"
+    },
+    "WORKOUT_REFERENCE.md": {
+      "version": "0.6",
+      "path": "examples/workout-library/WORKOUT_REFERENCE.md",
+      "description": "Session template library"
+    },
+    "PRE_WORKOUT_REPORT_TEMPLATE.md": {
+      "version": "1.0",
+      "path": "examples/reports/PRE_WORKOUT_REPORT_TEMPLATE.md",
+      "description": "Pre-workout report template"
+    },
+    "POST_WORKOUT_REPORT_TEMPLATE.md": {
+      "version": "1.0",
+      "path": "examples/reports/POST_WORKOUT_REPORT_TEMPLATE.md",
+      "description": "Post-workout report template"
+    },
+    "WEEKLY_REPORT_TEMPLATE.md": {
+      "version": "1.0",
+      "path": "examples/reports/WEEKLY_REPORT_TEMPLATE.md",
+      "description": "Weekly report template"
+    },
+    "BLOCK_REPORT_TEMPLATE.md": {
+      "version": "1.0",
+      "path": "examples/reports/BLOCK_REPORT_TEMPLATE.md",
+      "description": "Block report template"
+    }
+  }
+}
