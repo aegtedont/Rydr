@@ -26,11 +26,11 @@ This document serves as a reference template for endurance athletes using the de
 
 | Field | Value |
 |-------|-------|
-| Name | [Your name or alias] |
-| Age | [Age] |
-| Height | [cm] |
-| Current Weight | [kg] |
-| Target Weight | [kg] |
+| Name | Alex |
+| Age | 31 |
+| Height | 189 |
+| Current Weight | 72 |
+| Target Weight | 72 |
 | Location | [City, Country] |
 
 **Weigh-in Protocol:** [e.g., Once weekly, Friday morning, after bathroom, before food/drink]
@@ -46,14 +46,14 @@ This document serves as a reference template for endurance athletes using the de
 
 | Type | Description |
 |------|-------------|
-| Primary | [e.g., Cycling performance (Endurance)] |
+| Primary | Cycling Performance |
 | Secondary | [e.g., Running, SkiErg, Walking] |
 
 ### Goals
 
 | Goal | Target Date |
 |------|-------------|
-| [Primary goal] | [Year] |
+| [Primary goal] | [202] |
 | [Secondary goal] | [Year] |
 | [Tertiary goal] | [Year] |
 
@@ -172,9 +172,9 @@ This document serves as a reference template for endurance athletes using the de
 | Z7 | 151%+ | [Calculate] | Neuromuscular |
 | SS | 84–97% | [Calculate] | Sweetspot |
 
-**Current FTP:** [W] (Indoor: [W])  
-**Max HR:** [bpm]  
-**Threshold HR:** [bpm]
+**Current FTP:** [330] (Indoor: [330])  
+**Max HR:** [198]  
+**Threshold HR:** [170]
 
 ### Current Fitness Markers
 
@@ -204,7 +204,7 @@ This document serves as a reference template for endurance athletes using the de
 [Your carb mix recipe]
 ```
 
-**CHO per bottle:** [g]  
+**CHO per bottle:** [90]  
 **Target absorption:** [g CHO/h]
 
 ### Recovery Drink Recipe
